@@ -42,19 +42,19 @@ const ListaInfo: React.FC = () => {
             <li key={info.id}>
               <div>
                 <strong>
-                  <p>Rota:{info.nome}</p>
+                  <p>Rota: {info.nome}</p>
                 </strong>
                 <strong>
                   <p>Origem: {info.rotaInicial}</p>
                 </strong>
                 <strong>
-                  <p>Destino:{info.rotaFinal}</p>
+                  <p>Destino: {info.rotaFinal}</p>
                 </strong>
                 <strong>
-                  <p>Horário Saída:{info.horario}</p>
+                  <p>Horário Saída: {info.horario}</p>
                 </strong>
                 <strong>
-                  <p>Valor:{info.preco}</p>
+                  <p>Valor: {info.preco}</p>
                 </strong>
 
                 <button
