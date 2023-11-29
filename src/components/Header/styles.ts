@@ -10,7 +10,7 @@ export const Container = styled.header`
     box-shadow: 0px 4px 15px -3px rgba(1, 77, 99);
 
     h1 {
-        color: #f69a0b;
+        color: #FFFF;
     }
 
     button {

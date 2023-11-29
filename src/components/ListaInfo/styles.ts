@@ -4,35 +4,27 @@ export const Container = styled.div`
   margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  
+
   h3 {
     text-align: center;
     font-size: 25px;
     font-weight: 700;
     color: var(--blue-light);
     margin: 0 0 25px 0;
-    
   }
 
   ul {
-    display: flex;
+    display: flex; /* Make the list a flex container */
     flex-wrap: wrap;
-    width: 30rem;
-    border-radius: 8px;
-    margin: 5px;
-    border: 10px solid #d7d7d7;
-    background-color: #ebecf0;
+    gap: 10px; /* Add some space between the list items */
+    padding: 10px; /* Add padding to the ul */
   }
 
   li {
     list-style-type: none;
-    flex: 0 0 auto; /* Tamanho fixo para cada item, sem crescimento ou encolhimento */
-    width: 230px; /* Ajuste conforme necessário para o tamanho desejado */
-    margin-right: 10px; /* Adiciona algum espaço entre os itens (ajuste conforme necessário) */
-    width: 30rem;
+    width: 230px;
     border-radius: 5px;
     background-color: #ebecf0;
-
 
     h4 {
       margin: 5px;
@@ -47,38 +39,23 @@ export const Container = styled.div`
       margin: 20px;
     }
 
-    p { 
-        padding: 3px;
-        text-align: left;
-        color:#012c38;
+    p {
+      padding: 3px;
+      text-align: left;
+      color: #012c38;
     }
 
-    li {
-        padding: 1rem 2rem;
-        color: var(--text-body);
-        background-color: #fff;
-        border: 0;
-        border-radius: 8px;
-        margin: 10px;
-        list-style: none;
-
-        display: flex;
-        justify-content: space-between;
-    }
-        
     button {
-      margin: 5px auto; 
+      margin: 5px auto;
       border-radius: 10px;
       padding: 5px;
-      display: block; /* Para ocupar a largura total disponível */
-      text-align: center; /* Para centralizar o texto dentro do botão */
+      display: block;
+      text-align: center;
     }
 
     button:hover {
       background-color: #b5b3b3;
       transition: 1s;
     }
-
   }
-
-`
+`;
